@@ -1,0 +1,64 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^4.0.0",
+    "caver-js-ext-kas": "^1.12.0",
+    "chart.js": "2.9.4",
+    "classnames": "2.3.1",
+    "cors": "^2.8.5",
+    "create-app-react": "^1.0.6",
+    "dataframe-js": "^1.4.4",
+    "express": "^4.18.1",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "http-proxy-middleware": "^2.0.6",
+    "moment": "2.29.4",
+    "nouislider": "14.6.3",
+    "npm-run-all": "^4.1.5",
+    "perfect-scrollbar": "1.5.5",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.4.1",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^4.0.3",
+    "reactstrap": "8.7.1",
+    "sass": "^1.54.0",
+    "tracer": "^1.1.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "npm-run-all --parallel start:**",
+    "start:client": "set PORT=5000 && react-scripts start",
+    "start:server": "node ./server/server.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
